@@ -4,6 +4,7 @@ void main() {
   // this the main method of our app.
   runApp(
     MaterialApp(
+      debugShowCheckedModeBanner: true,
       home: Scaffold(
         bottomNavigationBar: BottomAppBar(
 
@@ -21,7 +22,7 @@ void main() {
 
                 ],
               ),
-              Icon(Icons.add_circle,size: 40,color: Colors.white,)
+              Icon(Icons.add_box_rounded,size: 40,color: Colors.white,)
             ],
           )
         ),
