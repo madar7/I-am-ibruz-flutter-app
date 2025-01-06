@@ -11,6 +11,7 @@ void main() {
           color: Colors.blue,
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            crossAxisAlignment: CrossAxisAlignment.end,
             children: [
               Row(
                 mainAxisAlignment: MainAxisAlignment.start,
@@ -22,7 +23,7 @@ void main() {
 
                 ],
               ),
-              Icon(Icons.add_box_rounded,size: 40,color: Colors.white,)
+              Icon(Icons.add_circle_outline,size: 40,color: Colors.white,)
             ],
           )
         ),
